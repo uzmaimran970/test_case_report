@@ -1,0 +1,9 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Severity Level
+TC001,Verify menu listing displays correctly,"Navigate to the homepage, check menu section",Menu items displayed,Menu items displayed,Passed,Low
+TC002,Test search functionality,"Enter keyword in search bar, press enter",Relevant items displayed,Relevant items displayed,Passed,Medium
+TC003,Test category filter,select category you desired,Relevant items displayed,Relevant items displayed,Passed,Medium
+TC004,Test cart functionality,select item than click add to cart button,items added removed correctly,need improvement,Passed,low
+TC005,Handle API failure gracefully,"Simulate API failure, observe error message","""Unable to load menu"" message displayed","""Unable to load menu"" message displayed",Passed,High
+TC006,Ensure responsiveness on mobile,Resize browser or test on mobile device,Responsive design adapts,Responsive design adapts,Passed,medium
+TC007,Validate input fields,Enter invalid data in form fields,Error message displayed,Error message displayed,Passed,Medium
+TC008,Optimize performance (Lighthouse),Run Lighthouse audit,Performance score > 90,Performance score = 92,Passed,Low
